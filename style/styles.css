@@ -1,0 +1,41 @@
+/* main style*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  background-color: royalblue;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+
+h3, title{
+  text-align: center;
+  color: purple;
+  padding-top: 20px;
+}
+
+.title{
+font-size: 30px;
+font-weight: 900;
+}
+
+.products {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 20px;
+  }
+
+.fruits {
+  margin: 10px;
+  background-color: rgb(182, 215, 241);
+}
